@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
 # Step 1: Load and prepare the dataset
-dataset_path = r"C:\Users\siddh\OneDrive\Desktop\codsoft intern\SALES PRIDECTION\advertising (1).csv"
+dataset_path = r"advertising .csv"
 df = pd.read_csv(dataset_path)
 
 X = df[['TV', 'Radio', 'Newspaper']]
